@@ -1,3 +1,36 @@
-h1 {
-    color: royalblue;
+/*NOTE create all variables the the :root to be used throughout document*/
+:root {
+    --primary: #153f98;
+}
+
+header {
+    background-color: var(--primary);
+    color:  #f8f8ff;
+}
+
+header img {
+    width: 100%;
+    max-width: 200px;
+}
+
+h1,h2,h3,h4,p {
+    margin: 0;
+}
+
+.padding-2{
+    padding: 1.5rem;
+}
+
+.text-primary {
+    color: var(--primary);
+}
+.d-flex{
+    display: flex;
+}
+
+.title-details h1 {
+    margin: 0;
+}
+.title-details h3 {
+    margin: 0;
 }
